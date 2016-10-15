@@ -54,7 +54,7 @@ hr {
   color: #ffebaf;
 }
 
-.title, h3 {
+.title, .title2, h3 {
   font-family: 'Franklin-Gothic-Medium';
   color: #ffebaf;
   padding: 1%;
@@ -62,12 +62,19 @@ hr {
 }
 
 h3 {
-  padding-left: 10px;
+  padding-left: 20px;
   padding-right: 15px;
   padding-bottom: 0;
 }
 
-.title {
+.title2 {
+  font-family: 'Franklin-Gothic-Medium';
+  color: #c4b4c1;
+  padding: 1%;
+  margin: 0px;
+}
+
+.title, .title2 {
   width: 14%;
   text-align: right;
 }
