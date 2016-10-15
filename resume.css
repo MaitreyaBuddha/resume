@@ -1,0 +1,84 @@
+/**
+ * Author Kelly Johnson
+ * Copyright 2016
+ * This work is licenced under Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License
+ * http://creativecommons.org/licenses/by-nc-sa/4.0/
+ */
+
+@font-face {
+  font-family: 'Crimson';
+  src: url('./Crimson-Roman-webfont.woff') format('woff');
+  font-style: normal;
+}
+
+h1 {
+  font-family: 'Times New Roman';
+  color: #ffebaf;
+  text-align: center;
+  margin: 0 auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 45px;
+  text-shadow: 2px 2px #96724b;
+}
+
+h1.boxed {
+  border: 4px solid #ffebaf;
+}
+
+div.boxed {
+  margin: 0 auto;
+  border: 2px solid #ffebaf;
+  padding: 3px;
+  width: 455px;
+}
+
+body {
+  padding: 8px;
+  max-width: 700px;
+  font: 14px fantasy, Helvetica, Arial, sans-serif;
+  background-color: #3a3a3a;
+  color: #e4ae74;
+  margin: 0px auto;
+}
+
+table {
+  border-top: 100px;
+  width: 100%;
+}
+
+hr {
+  height: 12px;
+  border: 0;
+  box-shadow: inset 0 12px 12px -12px rgba(228, 174, 116, 1);
+  color: #ffebaf;
+}
+
+.title, h3 {
+  font-family: 'Franklin-Gothic-Medium';
+  color: #ffebaf;
+  padding: 1%;
+  margin: 0px;
+}
+
+h3 {
+  padding-left: 10px;
+  padding-right: 15px;
+  padding-bottom: 0;
+}
+
+.title {
+  width: 14%;
+  text-align: right;
+}
+
+td.longtext {
+  font-family: Crimson;
+  color: whitesmoke;
+  text-align: justify;
+  padding: 8px;
+}
+
+a {
+  color: #00b7ff;
+}
