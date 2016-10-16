@@ -36,10 +36,11 @@ div.boxed {
 body {
   padding: 8px;
   max-width: 700px;
-  font: 14px fantasy, Helvetica, Arial, sans-serif;
+  font: 14px Helvetica, Arial, sans-serif;
   background-color: #3a3a3a;
-  color: #e4ae74;
-  margin: 0px auto;
+  color: #ffebaf;
+  margin: 0 auto;
+  text-align: center;
 }
 
 table {
